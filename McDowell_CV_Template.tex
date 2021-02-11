@@ -21,15 +21,15 @@
 %% SOFTWARE.
 
 % The font could be set to Windows-specific Calibri by using the 'calibri' option
-\documentclass[]{mcdowellcv}
+\documentclass[calibri]{mcdowellcv}
 
 % For mathematical symbols
 \usepackage{amsmath}
 
 % Set applicant's personal data for header
-\name{Gayle L. McDowell}
-\address{123 Spruce St, Apt 35 \linebreak Philadelphia PA 19103}
-\contacts{(555) 555-1212 \linebreak gayle@careercup.com}
+\name{Hunter Johnson}
+\address{14425 Addington Ct. \linebreak Orlando FL 32828 \linebreak https://github.com/0xhjohnson}
+\contacts{(407) 493-0685 \linebreak hjohnson.js@gmail.com \linebreak https://0xhjohnson.com}
 
 \begin{document}
 
@@ -38,78 +38,77 @@
 	
 	% Print the content
 	\begin{cvsection}{Employment}
-		\begin{cvsubsection}{Software Engineer, Intern}{Apple Computer}{Summer 2004}
-			iChat AV			
+		\begin{cvsubsection}{Full Stack Web Developer}{Lockheed Martin (Contractor)}{October 2019 -- Present}		
 			\begin{itemize}
-				\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-				\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-				\item Redesigned chat file format and implemented backwards compatibility for search.
+				\item One of three developers responsible for user-facing features that support production operations.
+				\item Developed web application using React and RESTful Node.js backend that allows operators to track additive manufacturing requests.
+				\item Increased digital transformation by creating Oracle views that support data scientists building Tableau dashboards.
+				\item Utilized Jira REST API to dynamically assign actions based on data existing within Oracle.
+				\item Reduced developer debug time by designing consistent site-wide error logging.
 			\end{itemize}
 		\end{cvsubsection}
 		
-		\begin{cvsubsection}{Lead Student Ambassador}{Microsoft Corporation}{Fall 2003 -- Spring 2005}	
+		\begin{cvsubsection}{Full Stack Web Developer}{Lockheed Martin (UCF CWEP)}{July 2018 -- October 2019}	
 			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
+				\item Implemented site-wide navigation system that is one of the most well received features in site history.
+				\item Optimized alerts by creating Node.js cron jobs that send automated emails.
+				\item Fixed a variety of bugs and annoyances that had been present for years.
+				\item Maintained and improved performance of legacy PHP applications by upwards of 15\%.
 			\end{itemize}
 		\end{cvsubsection}
 		
-		\begin{cvsubsection}{Head Teaching Assistant}{University of Pennsylvania}{Fall 2001 -- Spring 2005}		
+		\begin{cvsubsection}{Web Developer}{9seven Design}{January 2016 -- June 2018}		
 			\begin{itemize}
-				\item Courses: Advanced Java III, Software Engineering, Mathematical Foundations of Computer Science I \& II.
-				\item Promoted to Head TA in Fall 2004; led weekly meetings and supervised four other TAs.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Software Design Engineer, Intern}{Microsoft Corporation}{Summers 2001 -- 2003}
-			Visual Studio Core (Summer 2003)		
-			\begin{itemize}
-				\item Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.
-				\item Created service to provide gradient across VS and VS add-ins. Optimized service via caching.
-			\end{itemize}
-			Programmer Productivity Research Center (Summers 2001, 2002)
-			\begin{itemize}
-				\item Built app to compute similarity of all methods in a code base; reduced time from $O(n^2)$ to $O(n\ log\ n)$. 
-				\item Created test case generation tool which creates random XML docs from XML Schema.
+				\item Developed user-centric websites with CRM integrations for many large agencies.
+				\item Designed unique user interactions using Figma.
+				\item Established strong communication with clients to ensure design constraints were met.
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 	
 	\begin{cvsection}{Education}
-		\begin{cvsubsection}{Philadelphia, PA}{University of Pennsylvania}{Fall 2000 -- May 2005}
+		\begin{cvsubsection}{Orlando, FL}{University of Central Florida}{May 2016 -- May 2021}
 			\begin{itemize}
-				\item M.S.E. in Computer and Information Science, May 2005. GPA: 3.6
-				\item B.S.E. in Computer Science Engineering with Minor in Mathematics, May 2005.  In-major GPA: 3.4.
-				\item Graduate Coursework: Software Foundations; Computer Architecture; Algorithms; Artificial Intelligence; Comparison of Learning Algorithms; Computational Theory.
-				\item Undergraduate Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Comp. Architecture; Engineering Entrepreneurship; Calculus III.
+				\item Bachelor of Science in Information Technology (GPA: 3.2)
+				\item Coursework: Computer Science 2 (Advanced Data Structures \& Algorithms), Security in Computing (Malware and botnets, Web security, Wireless security, Public key), Systems Software, Object Oriented Programming, Discrete, Databases, Computer Architecture, Cryptography
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 	
-	\begin{cvsection}{Technical Experience}
-		\begin{cvsubsection}{Projects}{}{}
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{Slicesum}{}{}
 			\begin{itemize}
-				\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-				\item \textbf{Synchronized Calendar} (2003 – 2004). Desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.  C\#.NET, SQL, XML
-				\item \textbf{Operating System} (2002).  UNIX-style OS with scheduler, file system, text editor and calculator. C
-			\end{itemize}
+        \item Created a React application that allows users to keep track of budgets and investments.
+        \item Built secure user authentication and password resets using FaunaDB tokens and ABAC roles.
+        \item Established test driven culture using Cypress for E2E tests.
+				\item \underline{Utilized:} React, FaunaDB, GraphQL, tailwindcss, react-spring, react-testing-library, Cypress, Vercel
+    	\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Preme-o}{}{}
+			\begin{itemize}
+        \item Desktop application that uses Puppeteer to purchase limited stock items from supremenewyork.
+        \item Designed UI that follows a11y guidelines, being regarded as one of the most user-friendly bots.
+        \item Integrated secure way to authenticate users by using JWT web token validation and Auth0.
+				\item \underline{Utilized:} Electron, React, Redux, Redux-Saga, Node.js, Golang, Puppeteer, tailwindcss, Vercel
+    	\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Gotham Sublime Text 3 UI Theme}{}{}
+			\begin{itemize}
+        \item Dark Sublime Text 3 UI theme ported to match the Gotham color scheme.
+        \item Accepted into Package Control with 5k installs and counting.
+    	\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 	
-	\begin{cvsection}{Additional Experience and Awards}
+	\begin{cvsection}{Skills}
 		\begin{cvsubsection}{}{}{}	
 			\begin{itemize}
-				\item \textbf{Instructor (2003 – 2005):} Taught two full-credit Computer Science courses; average ratings of 4.8 out of 5.0.
-				\item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project, out of 100 projects.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Languages and Technologies}
-		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item C++; C; Java; Objective-C; C\#.NET; SQL; JavaScript; XSLT; XML (XSD) Schema 
-				\item Visual Studio; Microsoft SQL Server; Eclipse; XCode; Interface Builder
+				\item Backend: Node.js, PHP, Golang, Java
+				\item Frontend: JavaScript, React, AngularJS, HTML, CSS
+				\item Databases: Oracle, PostgreSQL, FaunaDB, Redis
+				\item Misc: Git, Redux, Next.js, Docker, AWS (EC2, S3), Vercel, JWT, C, Nginx
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
